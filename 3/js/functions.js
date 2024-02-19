@@ -3,7 +3,7 @@ const isLengthLessMax = function (string, length) {
   return num;
 };
 
-console.log(isLengthLessMax('fgdddd', 15));
+isLengthLessMax('fgdddd', 15);
 
 const isPalindrom = (string) => {
 
@@ -18,4 +18,4 @@ const isPalindrom = (string) => {
   return text;
 };
 
-console.log(isPalindrom('Ala'));
+isPalindrom('Ala');
