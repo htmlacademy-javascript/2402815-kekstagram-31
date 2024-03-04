@@ -18,4 +18,11 @@ const isPalindrom = (string) => {
   return text;
 };
 
-isPalindrom('Ala');
+//isPalindrom('Ala');
+
+// const getTime = (start, finish, begin, duration) => {
+//   startHours = Number(start.split(':'));
+
+// };
+
+// getTime();

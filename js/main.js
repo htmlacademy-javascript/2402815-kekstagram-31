@@ -1,4 +1,4 @@
-import {createPhotoArray} from './data.js';
+import { createPhotoArray } from './data.js';
 
 createPhotoArray();
 
