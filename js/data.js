@@ -71,4 +71,5 @@ const createPhotoArray = () => {
   return photoArray;
 };
 
+
 export {createPhotoArray};
