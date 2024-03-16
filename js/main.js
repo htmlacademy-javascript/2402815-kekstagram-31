@@ -1,5 +1,5 @@
-import {createPhotoArray} from './data.js';
-import {fillThumbnails} from './render-thumbnails.js';
+// import { createPhotoArray } from './data.js';
+import { getSchedule } from './functions.js';
 
-fillThumbnails(createPhotoArray());
 
+getSchedule();
