@@ -2,5 +2,4 @@
 import { getSchedule } from './functions.js';
 
 
-
 getSchedule();
