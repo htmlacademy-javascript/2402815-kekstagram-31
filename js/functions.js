@@ -23,7 +23,7 @@
 
 const toMinutes = function(time){
   const dataInMinutes = [];
-  time.forEach(element => {
+  time.forEach((element) => {
     const arrayTime = element.split(':');
     const durationEachTime = arrayTime[0] * 60 + Number(arrayTime[1]);
     dataInMinutes.push(durationEachTime);
