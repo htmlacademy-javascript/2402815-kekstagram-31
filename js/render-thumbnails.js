@@ -10,7 +10,7 @@ const createThumbnail = (picture) => {
   pictureElement.querySelector('.picture__img').alt = description;
   pictureElement.querySelector('.picture__comments').textContent = comments.length;
   pictureElement.querySelector('.picture__likes').textContent = likes;
-  // pictureElement.dataset.pictureId = id;
+  pictureElement.dataset.pictureId = id;
   return pictureElement;
 
 };
